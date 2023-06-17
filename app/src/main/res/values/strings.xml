@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="about"> Hi, I m Francisco Arellano Developer </string>
+    <string name="experience"> Years of experience </string>
+    <string name="Years"> 1 year </string>
+    <string name="motivation"> Motivation Level</string>
+    <string name="level"> Over committed </string>
+    <string name="share">Share</string>
+    <string name="back">Back</string>
+    <string name="profile">Profile Picture</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="github">GitHub</string>
+    <string name="email">Write here</string>
+    <string name="contact">Contact me</string>
+    <string name="toast">Add a message and press the button to go to your email</string>
+    <string name="toolbar">You can contact me by:</string>
+    <string name="myemail">francisco.arellano.salazar@gmail.com</string>
+    <string name="toast2">The message is empty</string>
+    <string name="toast3">There is NO email client installed!.</string>
+</resources>

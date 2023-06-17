@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="134dp"
+        android:background="@color/c1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/c2"
+            android:foregroundGravity="left"
+            android:text="@string/back"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:icon="@drawable/back"
+            app:iconGravity="start"
+            app:iconPadding="2dp"
+            app:iconSize="20dp"
+            app:iconTint="@color/black"
+            tools:ignore="SmallSp,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="402dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="353dp"
+            android:layout_marginBottom="0dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/toolbar"
+            android:textColor="@color/c3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="0dp"
+        android:layout_height="596dp"
+        android:background="#52000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/linkedin"
+                android:contentDescription="@string/level" />
+
+            <TextView
+                android:id="@+id/linkedin"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/linkedin"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/whatsapp"
+                android:contentDescription="@string/whatsapp"
+                tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/whatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/whatsapp"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/github"
+                android:contentDescription="@string/github"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <TextView
+                android:id="@+id/github"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/github"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gmail"
+                android:contentDescription="@string/email"
+                tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:autofillHints=""
+                android:gravity="center_vertical"
+                android:hint="@string/email"
+                android:inputType="text"
+                android:textColorHint="@color/person_background"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="208dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/c1"
+        android:text="@string/contact"
+        android:textColor="@color/c3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout3"
+        app:layout_constraintVertical_bias="0.79" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

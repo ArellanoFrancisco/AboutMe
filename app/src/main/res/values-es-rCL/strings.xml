@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="about">Hola, Soy Francisco Arellano Desarrollador </string>
+    <string name="experience"> Años de experiencia</string>
+    <string name="Years"> 1 año </string>
+    <string name="motivation">Nivel de Motivacion</string>
+    <string name="level">Exageradamente comprometido</string>
+    <string name="share">Compartir</string>
+    <string name="back">Atras</string>
+    <string name="profile">foto de perfil</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="github">GitHub</string>
+    <string name="email">Escribe aquí</string>
+    <string name="contact">Contáctame</string>
+    <string name="toolbar">Puedes contactarme por:</string>
+    <string name="toast">Agregar un mensaje y pulsa el boton para ir a tu correo</string>
+    <string name="toast2">El mensaje está vacío</string>
+    <string name="myemail">francisco.arellano.salazar@gmail.com</string>
+    <string name="toast3">NO existe ningún cliente de email instalado!.</string>
+
+</resources>
